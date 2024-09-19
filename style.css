@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+:root{
+
+}
+.cabecalho{
+    background-color: rgb(248, 144, 54);
+    padding: 50px;
+}
+.corpo{
+    background-color: rgb(237, 240, 242);
+}
+.footer{
+    background-color: rgb(126, 133, 133);
+}
+.boton{
+    position: fixed;
+    top: 20px;
+    left: 0px;
+    padding: 10px 20px;
+    background-color: blue;
+    color: rgb(244, 248, 251);
+    text-decoration: none;
+    border-radius: 5px;
+}
+.boton:hover{
+    background: linear-gradient(to right,#eb0f0f,#e3f60f,#1df64f);
+}
+.boton:active{
+    font-size: 20px;
+}
