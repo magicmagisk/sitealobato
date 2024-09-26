@@ -31,3 +31,16 @@
 .boton:active{
     font-size: 20px;
 }
+.video-grid{
+    display:grid;
+    grid-template-columns: repeat(auto-fit,minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.video-item{
+    background-color: black;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 2px 10px rgba(red, green, blue, alpha); 
+    heigth: 200px;
+}
